@@ -6,6 +6,6 @@ import org.lwjgl.system.*;
 public class gameWindow {
     private long window;
     public gameWindow(int sizeX, int sizeY, String title, boolean resizable) {
-        
+        System.out.println("SizeX:"+sizeX);
     }
 }
